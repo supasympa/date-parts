@@ -24,7 +24,7 @@ console.log(JSON.stringify(dateParts(`2018-04-06T20:42:15.797Z`), 0, 4))
 
 ## Example:
 ```
-const _ = require('../index');
+const _ = require('date-parts');
 
 _.extendDate();
 
@@ -55,6 +55,8 @@ Your environment should support [.toISOString()](https://developer.mozilla.org/e
 
 ## Built With
 
+* [Babel](http://babeljs.io/)
+* [Mocha](https://mochajs.org)
 * [Webpack](https://webpack.js.org/)
 * [Prettier](https://prettier.io)
 * [Eslint](https://eslint.org)
