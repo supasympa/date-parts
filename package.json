@@ -1,12 +1,12 @@
 {
   "name": "date-parts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A zero dependency, simple function to return the parts of a date for formatting (or whatever you choose).",
   "main": "index.js",
   "scripts": {
     "test": "mocha --opts mocha.opts",
     "compile": "webpack",
-    "postinstall": "npm run compile"
+    "postinstall": "npm i && npm run compile && npm prune --production"
   },
   "repository": {
     "type": "git",
