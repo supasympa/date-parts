@@ -1,0 +1,7 @@
+--require babel-polyfill
+--require babel-register
+--ui bdd
+--globals module
+--timeout 2000
+--colors
+--recursive
