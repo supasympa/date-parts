@@ -95,5 +95,5 @@ Your environment should support [.toISOString()](https://developer.mozilla.org/e
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache-2 License - see the [LICENSE.md](LICENSE.md) file for details
 
