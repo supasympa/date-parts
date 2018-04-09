@@ -1,6 +1,6 @@
 {
   "name": "date-parts",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A zero dependency, simple function to return the parts of a date for formatting (or whatever you choose).",
   "main": "index.js",
   "scripts": {

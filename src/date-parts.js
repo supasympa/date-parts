@@ -111,7 +111,6 @@ const extendDate = () => {
 };
 
 export {
-  dateParts as default,
   dateParts,
   isLeapYear,
   checkDayIsValidForMonth,

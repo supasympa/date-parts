@@ -21,8 +21,35 @@ console.log(JSON.stringify(dateParts(`2018-04-06T20:42:15.797Z`), 0, 4))
 }
 */
 ```
+## Example (direct use):
+```
+const DateParts = require('date-parts');
 
-## Example:
+const dp = DateParts.dateParts('2018-04-09T07:39:12.000Z');
+
+console.log(`the date parts right now are: ${JSON.stringify(dp, 0, 4)}`);
+
+/*
+should output ...
+
+the date parts right now are: {
+    "ms": "000",
+    "ss": "12",
+    "mm": "39",
+    "hh": "07",
+    "dd": "09",
+    "MM": "04",
+    "yyyy": "2018",
+    "ts": 1523259552000,
+    "meridiem": "am",
+    "iso": "2018-04-09T07:39:12.000Z"
+}
+
+*/
+
+```
+
+## Example (extending date object):
 ```
 const _ = require('date-parts');
 
